@@ -1,0 +1,20 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "wp-recent-posts/wp-recent-posts-block",
+	"version": "0.1.0",
+	"title": "Recent posts",
+	"category": "widgets",
+	"icon": "smiley",
+	"description": "This block allows you to list the 5 recent posts on yor site.",
+	"example": {},
+	"supports": {
+		"html": false
+	},
+	"textdomain": "wp-recent-posts-block",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css",
+	"render": "file:./render.php",
+	"viewScript": "file:./view.js"
+}
